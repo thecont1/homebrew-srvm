@@ -1,25 +1,25 @@
 class Srvm < Formula
   desc "Zero-config universal app launcher"
   homepage "https://github.com/thecont1/srvm"
-  version "0.1.1"
+  version "0.1.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/thecont1/srvm/releases/download/v0.1.1/srvm-aarch64-apple-darwin.tar.xz"
-      sha256 "02d09253cfe8f8d03c100493ed755a1f4191665f09641acbdc64a8fe89e36ac2"
+      url "https://github.com/thecont1/srvm/releases/download/v0.1.2/srvm-aarch64-apple-darwin.tar.xz"
+      sha256 "f8c99c96d40b226504ce7cac856386cc542a51352cd6565208bfebc4fe8d9f13"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/thecont1/srvm/releases/download/v0.1.1/srvm-x86_64-apple-darwin.tar.xz"
-      sha256 "37d16cf6cda993466680b5d75c918710e01a2e4746d192cbe8b36f09cf9ded0f"
+      url "https://github.com/thecont1/srvm/releases/download/v0.1.2/srvm-x86_64-apple-darwin.tar.xz"
+      sha256 "fb08755e38e456213ce16f4ce899741683394dc6b20ab3f35a593ed1d43ba492"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/thecont1/srvm/releases/download/v0.1.1/srvm-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "2d39c13aacb65bf167fc0f4026a99570eb5c3759c6866349ebb55fea95e35e4a"
+      url "https://github.com/thecont1/srvm/releases/download/v0.1.2/srvm-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "a94b12995514e4e77c3e0d0d61d3d895f792bc6dad82b67907225ec2f98519b3"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/thecont1/srvm/releases/download/v0.1.1/srvm-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "df711f247553ed158e5a35498491181cad8cc4e2c8ff7127070249969aa82ba7"
+      url "https://github.com/thecont1/srvm/releases/download/v0.1.2/srvm-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "c9e05fb92df63657ac77f7c065ed16c0bbdc370498a70317285a099c344eee59"
     end
   end
   license "MIT"
